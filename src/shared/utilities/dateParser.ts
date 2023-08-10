@@ -1,4 +1,4 @@
-import { dateRegex } from 'src/common/constants/common.constants';
+import { dateRegex } from '../../common/constants/common.constants';
 
 const dateParser = (content: string): string[] => {
   const dates = content.match(dateRegex);

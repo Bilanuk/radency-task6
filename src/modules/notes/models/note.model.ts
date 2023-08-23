@@ -6,7 +6,7 @@ export class Note extends Model<Note> {
   @Column({ primaryKey: true, autoIncrement: true, allowNull: false })
   id!: number;
 
-  @Column({ allowNull: false, validate: { notEmpty: true, len: [3, 50] } })
+  @Column({ allowNull: false, validate: { notEmpty: true, len: [3, 60] } })
   name!: string;
 
   @Column({
